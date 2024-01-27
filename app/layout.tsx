@@ -1,8 +1,7 @@
 // Global styles
-import './ui/global.css'
+import './ui/global.css';
 // Adding a primary font
-import {inter} from './ui/font';
-
+import { inter } from './ui/font';
 
 export default function RootLayout({
   children,
