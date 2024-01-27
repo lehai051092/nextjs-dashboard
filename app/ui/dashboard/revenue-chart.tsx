@@ -1,7 +1,7 @@
 import { generateYAxis } from '../../lib/utils';
 import { CalendarIcon } from '@heroicons/react/24/outline';
 import { lusitana } from '../font';
-import { Revenue } from "../../lib/definitions";
+import { Revenue } from '../../lib/definitions';
 import { fetchRevenue } from '../../lib/data';
 
 // This component is representational only.

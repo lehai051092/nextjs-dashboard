@@ -2,8 +2,12 @@ import { lusitana } from '../../ui/font';
 import RevenueChart from '../../ui/dashboard/revenue-chart';
 import LatestInvoices from '../../ui/dashboard/latest-invoices';
 import { Suspense } from 'react';
-import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '../../ui/skeletons';
-import CardWrapper from "../../ui/dashboard/cards";
+import {
+  CardsSkeleton,
+  LatestInvoicesSkeleton,
+  RevenueChartSkeleton,
+} from '../../ui/skeletons';
+import CardWrapper from '../../ui/dashboard/cards';
 
 export default async function Page() {
   return (
