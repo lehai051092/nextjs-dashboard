@@ -6,6 +6,11 @@ import { Suspense } from 'react';
 import { CreateInvoice } from '../../ui/invoices/buttons';
 import { InvoicesTableSkeleton } from '../../ui/skeletons';
 import { fetchInvoicesPages } from '../../lib/data';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Invoices',
+};
 
 export default async function Page({
   searchParams,
